@@ -38,6 +38,7 @@
 .flip-card-front {
     /* background-color: #bbb; */
     /* color: black; */
+    backface-visibility: hidden;
 }
 
 /* Style the back side */
@@ -45,4 +46,5 @@
     /* background-color: dodgerblue;
     color: white; */
     transform: rotateY(180deg);
+    backface-visibility: hidden;
 }
